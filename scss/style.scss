@@ -1,0 +1,42 @@
+@import './bootstrap/bootstrap.scss';
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "./components/banner";
+@import "./components/sidebar";
+@import "./components/about";
+$font-primary: 'Poppins',Arial, sans-serif;
+$primary: #f8b739;
+
+body{
+	font-family: $font-primary;
+	font-size: 14px;
+	line-height: 1.8;
+	font-weight: normal;
+	background: #fafafa;
+	color: lighten($black,50%);
+	overflow-x: hidden;
+}
+a {
+	transition: .3s all ease;
+	color: $primary;
+	&:hover, &:focus {
+		text-decoration: none !important;
+		outline: none !important;
+		box-shadow: none;
+	}
+}
+button {
+	transition: .3s all ease;
+	&:hover, &:focus {
+		text-decoration: none !important;
+		outline: none !important;
+		box-shadow: none !important;
+	}
+}
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: $font-primary;
+	color: $black;
+}

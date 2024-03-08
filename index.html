@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper d-flex align-items-stretch">
+      <!-- Sidebar Start
+      ================================================== -->
+      <div
+        class="nav-bg"
+        style="
+          background: url(./WhatsApp\ Image\ 2024-03-08\ at\ 00.18.36_da7346ff.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        "
+      >
+        <div class="nav-glass">
+          <div class="intro text-center mb-4">
+            <img
+              src="./default_profile.png"
+              class="profile_img rounded-circle"
+              alt=""
+              srcset=""
+            />
+            <div id="user_details" class="user_details my-3">
+              <div
+                class="animate__animated animate__fadeInDown animate__delay-1s"
+              >
+                <p class="user_name">Tahmid Khan Sajid</p>
+              </div>
+
+              <div
+                class="animate__animated animate__fadeInDown animate__delay-1s"
+              >
+                <p class="user_email">Web Designer || Web Developer</p>
+              </div>
+              <div
+                class="animate__animated animate__fadeInDown animate__delay-2s"
+              >
+                <p class="user_intro">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit fusce
+                  vel neque, dapibus egestas est iaculis luctus ad felis
+                  pharetra sodales,
+                </p>
+              </div>
+            </div>
+            <div id="user_accounts" class="mb-3 user_accounts">
+              <div
+                class="row d-flex justify-content-between animate__animated animate__fadeInDown animate__delay-3s"
+              >
+                <div class="col icons">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </div>
+                <div class="col icons">
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+                <div class="col icons">
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </div>
+                <div class="col icons">
+                  <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <nav id="sidebar" class="">
+            <ul class="list-unstyled components mb-5">
+              <li class="active">
+                <a href="#"><span class="fa fa-home"></span> Home</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-user"></span> About</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-sticky-note"></span> Blog</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-cogs"></span> Services</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-paper-plane"></span> Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="text-right btn_cross">
+        <button
+          type="button"
+          id="sidebarCollapse"
+          class="btn btn-primary p-2 rounded-end-circle"
+          style="height: 40px; width: 40px"
+        >
+          <div class="btn_r mb-1"></div>
+          <div class="btn_m mb-1"></div>
+          <div class="btn_l"></div>
+        </button>
+      </div>
+      <!-- Sidebar End
+      ================================================== -->
+
+      <!-- Page Content  -->
+      <div id="content" class="ps-4 pt-4">
+        <!-- Banner Start
+        ================================================== -->
+        <section class="w-100 pb-4 banner_sec">
+          <div class="row d-flex justify-content-between banner">
+            <div class="col-lg-6">
+              <!-- Banner Text Start
+            ================================================== -->
+              <p class="intro_first">Hi, I am</p>
+              <h1 class="intro_name">Tahmid Khan Sajid</h1>
+              <h2 class="intro_profession">Web Designer And Web Developer</h2>
+              <p class="intro_para">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat,
+                sapien penatibus dui ante ultrices dignissim tortor, arcu nec
+                tristique pellentesque dapibus netus lobortis. Rutrum semper
+                rhoncus fringilla ultrices dui fermentum vivamus leo vitae
+                tincidunt
+              </p>
+              <!-- Banner Text End
+                ================================================== -->
+
+              <!-- Banner Button Start
+                ================================================== -->
+              <div class="row bttn_sec">
+                <div class="col-lg-5">
+                  <button class="btn btn-primary rounded-pill px-3 py-2">
+                    Contact me
+                  </button>
+                </div>
+                <div class="col-lg-5">
+                  <button class="btn btn-primary rounded-pill px-3 py-2">
+                    Download CV
+                  </button>
+                </div>
+              </div>
+              <!-- Banner Button End
+                ================================================== -->
+
+              <!-- Banner Links Start
+                ================================================== -->
+              <div class="accounts_banner">
+                <div class="row d-flex justify-content-between text-center">
+                  <div class="col banner_icons">
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </div>
+                  <div class="col banner_icons">
+                    <a href="#">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                  <div class="col banner_icons">
+                    <a href="#">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="col banner_icons">
+                    <a href="#">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Banner Links End
+                ================================================== -->
+            </div>
+
+            <!-- Banner Image Start
+            ================================================== -->
+            <div class="col-lg-6 text-center">
+              <img src="./default_profile.png" class="rounded-full" alt="" />
+            </div>
+          </div>
+          <!-- Banner Image Start
+            ================================================== -->
+          <img class="bg_image_one" src="/impact_img_5.png" alt="" />
+          <img class="bg_image_two" src="/impact_img_5.png" alt="" />
+        </section>
+        <!-- Banner End
+        ================================================== -->
+
+        <!-- About Me Start
+        ================================================== -->
+        <section class="about_sec">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-12 about_heading">
+                  <h6>About me</h6>
+                  <h3>Who am I?</h3>
+                </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="about_para">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit auctor
+                    ullamcorper vel, tincidunt eu posuere interdum risus eros donec at
+                    facilisi fusce, montes nisi duis feugiat ultricies mattis lacinia
+                    convallis velit. Commodo feugiat fermentum habitant facilisi
+                    accumsan praesent iaculis sagittis blandit cras ridiculus purus
+                    scelerisque, suscipit dictumst arcu nec suspendisse orci fames
+                    vestibulum imperdiet auctor cum nascetur.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6">
+              <h3 class="education_heading text-center">
+                My Education
+              </h3>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Secondary School Certificate &nbsp;(SSC)
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Higher Secondary Certificate &nbsp;(HSC)
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Diploma in Web Development
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Me End
+        ================================================== -->
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

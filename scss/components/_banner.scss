@@ -1,0 +1,60 @@
+.intro_para {
+  font-size: 15px;
+  line-height: 25px;
+  width: 625px;
+  text-align: justify;
+}
+.banner_sec {
+  position: relative;
+}
+.banner{
+    padding: 200px 30px;
+}
+
+.intro_first {
+  font-size: 22px;
+}
+.intro_name {
+  font-size: 50px;
+}
+.intro_profession {
+  font-size: 40px;
+}
+.intro_para {
+  font-size: 17px;
+}
+.bttn_sec {
+  width: 400px;
+}
+.accounts_banner {
+  width: 270px;
+  margin-top: 25px;
+}
+.banner_icons {
+  font-size: 24px;
+  vertical-align: middle;
+  a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #002752;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    i {
+      color: white;
+    }
+  }
+}
+.bg_image_one{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.bg_image_two{
+    position: absolute;
+    transform: rotate(180deg);
+    left: -70px;
+    top: -50px;
+    z-index: -1;
+}
