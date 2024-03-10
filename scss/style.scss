@@ -15,6 +15,7 @@ body{
 	background: #fafafa;
 	color: lighten($black,50%);
 	overflow-x: hidden;
+	position: relative;
 }
 a {
 	transition: .3s all ease;
@@ -39,4 +40,15 @@ h1, h2, h3, h4, h5,
 	font-weight: 400;
 	font-family: $font-primary;
 	color: $black;
+}
+.sidebar_inactive{
+	padding-left: 80px !important;
+	transition: 0.5s;
+}
+.sidebar_active{
+	padding-left: 270px !important;
+	transition: 0.5s;
+}
+.container-fluid{
+	padding: 0px 70px;
 }

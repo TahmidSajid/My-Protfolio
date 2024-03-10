@@ -8965,7 +8965,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .banner {
-  padding: 200px 30px;
+  padding: 200px 0px;
 }
 
 .intro_first {
@@ -9074,6 +9074,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 .wrapper {
   width: 100%;
+}
+
+.aside_nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 270px;
 }
 
 #sidebar {
@@ -9197,7 +9205,7 @@ a[data-toggle=collapse] {
 
 #content {
   width: 100%;
-  padding: 0;
+  padding-left: 0;
   min-height: 100vh;
   transition: all 0.3s;
 }
@@ -9305,6 +9313,13 @@ a[data-toggle=collapse] {
   color: black;
 }
 
+.nav-bg {
+  background-image: url("../../images/nav_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .about_sec {
   padding: 200px 0px;
 }
@@ -9334,6 +9349,77 @@ a[data-toggle=collapse] {
   background: #ffefe2 !important;
 }
 
+.skill_img {
+  width: 100px !important;
+  height: 100px !important;
+  margin: 0 auto;
+  padding: 0px 0px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.skill_heading {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.skill_para {
+  width: 625px;
+  text-align: justify;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.table_heading {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.card {
+  border: 0px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.main_card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px 0px;
+}
+
+.card_html {
+  border-bottom: 3px solid #e44d26;
+}
+
+.card_css {
+  border-bottom: 3px solid #2062af;
+}
+
+.card_js {
+  border-bottom: 3px solid #e5c62e;
+}
+
+.card_php {
+  border-bottom: 3px solid #767bb3;
+}
+
+.card_bootstrap {
+  border-bottom: 3px solid #7211f6;
+}
+
+.card_tailwind {
+  border-bottom: 3px solid #38bdf8;
+}
+
+.card_laravel {
+  border-bottom: 3px solid #ff2d1e;
+}
+
+.card_react {
+  border-bottom: 3px solid #00d8fe;
+}
+
 body {
   font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
@@ -9342,6 +9428,7 @@ body {
   background: #fafafa;
   color: gray;
   overflow-x: hidden;
+  position: relative;
 }
 
 a {
@@ -9369,4 +9456,18 @@ h1, h2, h3, h4, h5,
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif;
   color: #000;
+}
+
+.sidebar_inactive {
+  padding-left: 80px !important;
+  transition: 0.5s;
+}
+
+.sidebar_active {
+  padding-left: 270px !important;
+  transition: 0.5s;
+}
+
+.container-fluid {
+  padding: 0px 70px;
 }

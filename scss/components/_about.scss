@@ -22,5 +22,64 @@
   padding-bottom: 40px;
 }
 .accordion-button:not(.collapsed){
-    background: #ffefe2 !important;
+  background: #ffefe2 !important;
+}
+.skill_img{
+	width: 100px !important;
+	height: 100px !important;
+  margin: 0 auto;
+  padding: 0px 0px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.skill_heading{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.skill_para{
+  width: 625px;
+  text-align: justify;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+.skill_table{
+}
+.table_heading{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+.card{
+  border: 0px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.main_card{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px 0px;
+}
+.card_html{
+  border-bottom: 3px solid #e44d26;
+}
+.card_css{
+  border-bottom: 3px solid #2062af;
+}
+.card_js{
+  border-bottom: 3px solid #e5c62e;
+}
+.card_php{
+  border-bottom: 3px solid #767bb3;
+}
+.card_bootstrap{
+  border-bottom: 3px solid #7211f6;
+}
+.card_tailwind{
+  border-bottom: 3px solid #38bdf8;
+}
+.card_laravel{
+  border-bottom: 3px solid #ff2d1e;
+}
+.card_react{
+  border-bottom: 3px solid #00d8fe;
 }

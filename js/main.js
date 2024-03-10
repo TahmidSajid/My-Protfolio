@@ -11,6 +11,8 @@
 
   $("#sidebarCollapse").on("click", function () {
     $("#sidebar").toggleClass("active");
+    $("#content").toggleClass("sidebar_active");
+    $("#content").toggleClass("sidebar_inactive");
     $(".profile_img").toggleClass("active_img");
     $("#user_details").toggleClass("d-none");
     $("#user_accounts").toggleClass("d-none");
