@@ -6,6 +6,7 @@
 @import "./components/about";
 @import "./components/service";
 @import "./components/showcase";
+@import "./components/cotact-from";
 $font-primary: 'Poppins',Arial, sans-serif;
 $primary: #f8b739;
 
@@ -56,5 +57,5 @@ h1, h2, h3, h4, h5,
 }
 p{
 	font-size: 15px;
-	color: #908080;
+	color: #000;
 }

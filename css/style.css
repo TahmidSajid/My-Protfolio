@@ -9008,6 +9008,10 @@ a.text-dark:hover, a.text-dark:focus {
 .banner_icons a i {
   color: white;
 }
+.banner_icons:hover {
+  transition: 0.5s;
+  transform: translateY(-10px) scale(1.2);
+}
 
 .bg_image_one {
   position: absolute;
@@ -9022,6 +9026,10 @@ a.text-dark:hover, a.text-dark:focus {
   left: -70px;
   top: -50px;
   z-index: -1;
+}
+
+#sidebarCollapse {
+  background-color: gray !important;
 }
 
 .ftco-section {
@@ -9346,7 +9354,7 @@ a[data-toggle=collapse] {
 }
 
 .accordion-button:not(.collapsed) {
-  background: #ffefe2 !important;
+  background: #e6e6e6 !important;
 }
 
 .skill_img {
@@ -9465,11 +9473,11 @@ a[data-toggle=collapse] {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .service_card:hover i {
-  color: #f2cea5;
+  color: gray;
   transition: 0.5s;
 }
 .service_card:hover .card-title {
-  color: #f2cea5;
+  color: gray;
   transition: 0.5s;
 }
 
@@ -9487,7 +9495,7 @@ a[data-toggle=collapse] {
 }
 
 .showcase_card {
-  width: 350px;
+  width: 450px;
   margin: 0 auto;
   padding-bottom: 30px;
   border: 0px;
@@ -9512,7 +9520,7 @@ a[data-toggle=collapse] {
 }
 
 .image-wrap {
-  width: 348px;
+  width: 450px;
   height: 250px;
   overflow: hidden;
   margin: 0 auto;
@@ -9539,16 +9547,170 @@ a[data-toggle=collapse] {
   text-align: center;
 }
 .showcase_link a {
-  vertical-align: middle;
-  font-size: 25px;
-  background-color: #f2cea5;
+  vertical-align: middle !important;
+  font-size: 25px !important;
+  padding: 0px !important;
+  background-color: #e6e6e6;
   color: black;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 .showcase_link a:hover {
-  background-color: #f2cea5;
-  color: white;
+  background-color: #e6e6e6;
+  color: gray;
+}
+
+.contact_us {
+  padding: 200px 0px;
+}
+
+.wrapper {
+  width: 100%;
+  box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+}
+.wrapper .btn {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .wrapper .btn {
+    transition: none;
+  }
+}
+.wrapper .btn:hover, .wrapper .btn:active, .wrapper .btn:focus {
+  outline: none !important;
+  box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
+}
+.wrapper .btn.btn-primary {
+  background: #e6e6e6 !important;
+  border-color: #e6e6e6 !important;
+  color: #000;
+}
+.wrapper .btn.btn-primary:hover, .wrapper .btn.btn-primary:focus {
+  border-color: #cdcdcd !important;
+  background: #cdcdcd !important;
+}
+
+.contact-wrap {
+  background: #fff;
+}
+
+.info-wrap {
+  color: black;
+}
+.info-wrap .dbox {
+  width: 100%;
+  color: black;
+  margin-bottom: 25px;
+}
+.info-wrap .dbox:last-child() {
+  margin-bottom: 0;
+}
+.info-wrap .dbox p {
+  margin-bottom: 0;
+  color: black !important;
+}
+.info-wrap .dbox p span {
+  font-weight: 500;
+  color: black !important;
+}
+.info-wrap .dbox p a {
+  color: black !important;
+}
+.info-wrap .dbox .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.info-wrap .dbox .icon span {
+  font-size: 20px;
+  color: black;
+}
+.info-wrap .dbox .text {
+  width: calc(100% - 50px);
+}
+
+.contactForm .label {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+.contactForm .form-control {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+#contactForm .error {
+  color: red;
+  font-size: 12px;
+}
+#contactForm .form-control {
+  font-size: 16px;
+}
+
+#message {
+  resize: vertical;
+}
+
+#form-message-warning,
+#form-message-success {
+  display: none;
+}
+
+#form-message-warning {
+  color: red;
+}
+
+#form-message-success {
+  color: #28a745;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ftco-section {
+  padding: 7em 0;
+}
+
+.ftco-no-pt {
+  padding-top: 0;
+}
+
+.ftco-no-pb {
+  padding-bottom: 0;
+}
+
+.form_bg {
+  background: #e6e6e6;
+  color: black !important;
+}
+
+.contact_heading h6 {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+.contact_heading h3 {
+  font-size: 30px;
+  padding-bottom: 80px;
 }
 
 body {
@@ -9605,5 +9767,5 @@ h1, h2, h3, h4, h5,
 
 p {
   font-size: 15px;
-  color: #908080;
+  color: #000;
 }
