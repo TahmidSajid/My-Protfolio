@@ -1,0 +1,118 @@
+@media (min-width: 0px) {
+  .container-fluid {
+    width: 565px !important;
+    padding: 0px !important;
+  }
+  .aside_nav {
+    width: 0px !important;
+    padding: 0px;
+  }
+  .banner {
+    padding: 0px;
+  }
+  .intro_para {
+    width: 150px;
+  }
+  .sidebar_active {
+    padding: 100px !important;
+  }
+  .intro_first {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .intro_name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .intro_profession {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .intro_para {
+    width: 232px;
+    font-size: 12px;
+  }
+  .bttn_sec {
+    width: 200;
+    button {
+      height: 40px;
+      width: 100;
+      font-size: 11px !important;
+    }
+  }
+  .accounts_banner {
+    width: 238px;
+    .banner_icons {
+      a {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+      }
+    }
+  }
+  .banner_profile {
+    img {
+      text-align: left !important;
+      width: 170px;
+      height: 170px;
+    }
+  }
+  .about_heading {
+    h6 {
+      font-size: 15px;
+      padding-bottom: 0px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+  }
+  .about_para {
+    width: 250px;
+    padding-top: 0px;
+    font-size: 12px;
+  }
+  .education_heading {
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: left !important;
+  }
+  .accordion {
+    width: 270px !important;
+    .accordion-header {
+      button {
+        font-size: 12px !important;
+      }
+    }
+    .accordion-body {
+      font-size: 10px !important;
+    }
+  }
+    .skill_heading{
+      font-size: 20px;
+      padding-bottom: 0px;
+    }
+    .skill_para{
+        width: 250px;
+        font-size: 12px;
+    }
+    .table_heading{
+        text-align: left !important;
+        font-size: 20px;
+    }
+    .main_card{
+        width: 250px;
+    }
+}
+
+// @media(min-width:0px)and(max-width:565px){
+//     .container-fluid{
+//         width: 565px !important;
+//     }
+//     .aside_nav{
+//         width: 0px;
+//     }
+// }
+// @media(min-width:768px)and(max-width:991px){}
+// @media(min-width:992px)and(max-width:1199px){}
+// @media(min-width:1200px)and(max-width:1399px){}
+// @media(min-width:1200px){}
