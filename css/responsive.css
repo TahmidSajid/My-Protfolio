@@ -1,31 +1,29 @@
 @media (min-width: 0px) {
-  .container-fluid {
-    width: 565px !important;
-    padding: 0px !important;
-  }
   .aside_nav {
     width: 0px !important;
     padding: 0px;
   }
   .banner {
-    padding: 0px;
+    padding: 50px 0px;
   }
   .intro_para {
     width: 150px;
   }
   .sidebar_active {
-    padding: 100px !important;
+    padding-left: 90px !important;
   }
   .intro_first {
-    font-size: 10px;
+    font-size: 14px;
     margin-bottom: 5px;
+    width: 250px;
   }
   .intro_name {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 5px;
+    width: 250px;
   }
   .intro_profession {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 5px;
   }
   .intro_para {
@@ -33,12 +31,12 @@
     font-size: 12px;
   }
   .bttn_sec {
-    width: 200;
+    width: 250px;
   }
   .bttn_sec button {
     height: 40px;
-    width: 100;
-    font-size: 11px !important;
+    width: 100px;
+    font-size: 10px !important;
   }
   .accounts_banner {
     width: 238px;
@@ -52,6 +50,9 @@
     text-align: left !important;
     width: 170px;
     height: 170px;
+  }
+  .about_sec {
+    padding: 50px 0px;
   }
   .about_heading h6 {
     font-size: 15px;
@@ -70,9 +71,6 @@
     padding: 10px 0px;
     text-align: left !important;
   }
-  .accordion {
-    width: 270px !important;
-  }
   .accordion .accordion-header button {
     font-size: 12px !important;
   }
@@ -82,6 +80,7 @@
   .skill_heading {
     font-size: 20px;
     padding-bottom: 0px;
+    padding-top: 80px !important;
   }
   .skill_para {
     width: 250px;
@@ -93,5 +92,120 @@
   }
   .main_card {
     width: 250px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    box-shadow: none !important;
+  }
+  .main_card h3 {
+    font-size: 20px;
+  }
+  .skill_card h5 {
+    font-size: 18px;
+  }
+  .table_heading {
+    font-size: 17px !important;
+    text-align: center !important;
+  }
+  .service_sec {
+    padding: 50px 0px;
+  }
+  .service_heading h6 {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .service_heading h3 {
+    font-size: 25px;
+  }
+  .service_heading p {
+    width: 250px;
+    padding: 10px 0px;
+    font-size: 12px;
+  }
+  .service_card {
+    width: 250px;
+    margin: 10px 0px;
+  }
+  .service_card .card-body {
+    padding: 25px 0px !important;
+  }
+  .service_card .card-body i {
+    font-size: 20px;
+  }
+  .service_card .card-body h5 {
+    font-size: 20px !important;
+    padding: 10px 0px !important;
+  }
+  .service_card .card-body p {
+    width: 170px;
+    font-size: 12px;
+  }
+  .showcase_sec {
+    padding: 50px 0px;
+  }
+  .showcase_heading h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .showcase_card {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .showcase_card .card-body h5 {
+    font-size: 20px;
+  }
+  .showcase_card .card-body p {
+    font-size: 12px;
+  }
+  .showcase_link {
+    width: 200px;
+  }
+  .showcase_link a i {
+    font-size: 20px;
+  }
+  .image-wrap {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .image-wrap img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top center;
+       object-position: top center;
+    transition: all 5s ease-in-out;
+  }
+  .image-wrap:hover img {
+    -o-object-position: bottom center;
+       object-position: bottom center;
+  }
+  .contact_us {
+    padding: 50px 0px;
+  }
+  .contact_heading h6 {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .contact_heading h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .contact-wrap h3 {
+    font-size: 20px;
+  }
+  .info-wrap h3 {
+    font-size: 20px;
+  }
+  .info-wrap p {
+    font-size: 12px;
+  }
+  .info-wrap .dbox .icon {
+    height: 35px;
+    width: 35px;
+  }
+  .info-wrap .dbox .icon span {
+    font-size: 15px;
   }
 }
