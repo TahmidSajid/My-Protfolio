@@ -1,4 +1,9 @@
-@media (min-width: 0px) {
+@media (min-width: 0px) and (max-width:768px) {
+  .container{
+    max-width: auto;
+    padding: 0px !important;
+    padding-left: 12px !important;
+  }
   .aside_nav {
     width: 0px !important;
     padding: 0px;
@@ -165,6 +170,7 @@
   }
   .showcase_card{
     width: 250px;
+    margin: 0px;
     margin-bottom: 20px;
     .card-body{
       h5{

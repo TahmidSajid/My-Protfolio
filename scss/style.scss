@@ -52,8 +52,9 @@ h1, h2, h3, h4, h5,
 	padding-left: 270px !important;
 	transition: 0.5s;
 }
-.container-fluid{
+.container{
 	padding: 0px 70px;
+	max-width: 100%;
 }
 p{
 	font-size: 15px;

@@ -9322,10 +9322,15 @@ a[data-toggle=collapse] {
 }
 
 .nav-bg {
-  background-image: url("../images/nav_bg.jpg");
+  background-image: url("../../images/nav_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.active {
+  color: black;
+  background-color: white;
 }
 
 .about_sec {
@@ -9761,8 +9766,9 @@ h1, h2, h3, h4, h5,
   transition: 0.5s;
 }
 
-.container-fluid {
+.container {
   padding: 0px 70px;
+  max-width: 100%;
 }
 
 p {
