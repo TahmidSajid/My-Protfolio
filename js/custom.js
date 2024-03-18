@@ -11,7 +11,7 @@ let userDetails = document.querySelector('#user_details');
 let userAccounts = document.querySelector('#user_accounts');
 console.log(window.innerWidth);
 window.addEventListener('load',()=>{
-  if(window.innerWidth <= 1000){
+  if(window.innerWidth <= 1199){
     navBar.classList.add("active");
     mainContent.classList.add("sidebar_active");
     profileImg.classList.add("active_img");

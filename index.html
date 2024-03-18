@@ -10,6 +10,12 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -132,13 +138,22 @@
       ================================================== -->
 
       <!-- Page Content  -->
-      <div id="content" class="content_body sidebar_active" data-bs-spy="scroll" data-bs-target="#navId">
+      <div
+        id="content"
+        class="content_body sidebar_active"
+        data-bs-spy="scroll"
+        data-bs-target="#navId"
+      >
         <!-- Banner Start
           ================================================== -->
         <section id="home" class="w-100 pb-4 banner_sec">
           <div class="container">
-            <div class="row d-flex justify-content-between banner">
-              <div class="col-xxl-6 col-lg-6 col-12 col-sm-12">
+            <div
+              class="row d-flex justify-content-between banner align-items-center"
+            >
+              <div
+                class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 animate__animated animate__fadeInLeft"
+              >
                 <!-- Banner Text Start
             ================================================== -->
                 <p class="intro_first">Hi, I am</p>
@@ -204,7 +219,9 @@
 
               <!-- Banner Image Start
             ================================================== -->
-              <div class="col-12 col-sm-12 col-lg-6 col-xxl-6 banner_profile">
+              <div
+                class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 banner_profile animate__animated animate__fadeInRight"
+              >
                 <img
                   src="./images/default_profile.png"
                   class="rounded-full"
@@ -215,12 +232,12 @@
             <!-- Banner Image Start
             ================================================== -->
             <img
-              class="bg_image_one d-none"
+              class="bg_image_one animate__animated animate__fadeIn animate__delay-1s"
               src="./images/impact_img_5.png"
               alt="img"
             />
             <img
-              class="bg_image_two d-none"
+              class="bg_image_two animate__animated animate__fadeIn animate__delay-1s"
               src="./images/impact_img_5.png"
               alt="img"
             />
@@ -233,19 +250,38 @@
         ================================================== -->
         <section id="about" class="w-100 pb-4 about_sec">
           <div class="container">
-            <div class="row">
+            <div class="row d-flex align-items-center">
               <!-- about me start
               ================================================== -->
-              <div class="col-lg-6 col-12 col-sm-12">
+              <div
+                class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"
+              >
                 <div class="row">
                   <div class="col-lg-12 col-12 col-sm-12 about_heading">
-                    <h6>About me</h6>
-                    <h3>Who am I?</h3>
+                    <h6
+                      data-aos="fade-right"
+                      data-aos-delay="200"
+                      data-aos-duration="1500"
+                    >
+                      Who am I?
+                    </h6>
+                    <h3
+                      data-aos="fade-right"
+                      data-aos-delay="400"
+                      data-aos-duration="1500"
+                    >
+                      About me
+                    </h3>
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col-lg-12 col-12 col-sm-12">
+                  <div
+                    class="col-lg-12 col-12 col-sm-12"
+                    data-aos="fade-right"
+                    data-aos-delay="800"
+                    data-aos-duration="1500"
+                  >
                     <p class="about_para">
                       Lorem ipsum dolor sit amet consectetur adipiscing elit
                       auctor ullamcorper vel, tincidunt eu posuere interdum
@@ -263,11 +299,23 @@
               </div>
               <!-- my education start
               ================================================== -->
-              <div class="col-lg-6 col-12 col-sm-12">
-                <h3 class="education_heading text-center">My Education</h3>
+              <div
+                class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"
+              >
+                <h3
+                  class="education_heading text-center"
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                  data-aos-duration="1500"
+                >
+                  My Education
+                </h3>
                 <div
                   class="accordion accordion-flush"
                   id="accordionFlushExample"
+                  data-aos="fade-left"
+                  data-aos-delay="600"
+                  data-aos-duration="1500"
                 >
                   <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -299,6 +347,9 @@
                 <div
                   class="accordion accordion-flush"
                   id="accordionFlushExample"
+                  data-aos="fade-left"
+                  data-aos-delay="900"
+                  data-aos-duration="1500"
                 >
                   <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -330,6 +381,9 @@
                 <div
                   class="accordion accordion-flush"
                   id="accordionFlushExample"
+                  data-aos="fade-left"
+                  data-aos-delay="1200"
+                  data-aos-duration="1500"
                 >
                   <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -366,11 +420,23 @@
             <!-- skill start
             ================================================== -->
             <div class="row">
-              <div class="col-lg-6 col-12 col-sm-12">
-                <h3 class="skill_heading" style="padding-top: 200px">
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+              >
+                <h3
+                  class="skill_heading"
+                  data-aos="fade-right"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                >
                   My skills
                 </h3>
-                <p class="skill_para">
+                <p
+                  class="skill_para"
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                  data-aos-duration="1000"
+                >
                   Lorem ipsum dolor sit amet consectetur adipiscing elit sociis,
                   sagittis feugiat dui parturient justo nisl consequat, litora
                   semper conubia non porta nostra rhoncus. Dictum sed interdum
@@ -384,21 +450,36 @@
             <!-- skill table start
             ================================================== -->
             <div class="row">
-              <div class="col-lg-12 col-12 col-sm-12">
-                <h3 class="table_heading">My have knowladge on</h3>
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+              >
+                <h3 class="table_heading">I have knowladge on</h3>
               </div>
             </div>
             <div class="row">
               <!-- skill main table
               ================================================== -->
-              <div class="col-lg-6 col-12 col-sm-12">
-                <div class="card main_card rounded-4">
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+              >
+                <div
+                  class="card main_card rounded-4"
+                  data-aos="zoom-out-up"
+                  data-aos-delay="800"
+                  data-aos-duration="1000"
+                >
                   <h3 class="card-title text-center">For Design</h3>
                   <div class="card-body">
                     <!-- design skill
                       ================================================== -->
                     <div class="row skill_table">
-                      <div class="col-lg-4 col-12 col-sm-12">
+                      <div
+                        class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
+                        class="card main_card rounded-4"
+                        data-aos="zoom-out-right"
+                        data-aos-delay="1000"
+                        data-aos-duration="1000"
+                      >
                         <div class="card skill_card card_html rounded-0">
                           <img
                             src="./images/html.png"
@@ -409,9 +490,14 @@
                             <h5 class="card-title text-center">HTML</h5>
                           </div>
                         </div>
-                        <h6 class="table_heading">Designing Language</h6>
+                        <h6 class="skill_card_heading">Designing Language</h6>
                       </div>
-                      <div class="col-lg-4 col-12 col-sm-12">
+                      <div
+                        class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
+                        data-aos="zoom-out-up"
+                        data-aos-delay="1200"
+                        data-aos-duration="1000"
+                      >
                         <div class="card skill_card card_css rounded-0">
                           <img
                             src="./images/CSS.png"
@@ -422,9 +508,14 @@
                             <h5 class="card-title text-center">CSS</h5>
                           </div>
                         </div>
-                        <h6 class="table_heading">Design</h6>
+                        <h6 class="skill_card_heading">Design</h6>
                       </div>
-                      <div class="col-lg-4 col-12 col-sm-12">
+                      <div
+                        class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
+                        data-aos="zoom-out-up"
+                        data-aos-delay="1400"
+                        data-aos-duration="1000"
+                      >
                         <div class="card skill_card card_js rounded-0">
                           <img
                             src="./images/js.png"
@@ -435,13 +526,18 @@
                             <h5 class="card-title text-center">JS</h5>
                           </div>
                         </div>
-                        <h6 class="table_heading">Design+Development</h6>
+                        <h6 class="skill_card_heading">Design+Development</h6>
                       </div>
                     </div>
                     <!--  skill css framework
                       ================================================== -->
                     <div class="row skill_table">
-                      <div class="col-lg-4">
+                      <div
+                        class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
+                        data-aos="zoom-out-up"
+                        data-aos-delay="1600"
+                        data-aos-duration="1000"
+                      >
                         <div class="card skill_card card_bootstrap rounded-0">
                           <img
                             src="./images/bootstrap.png"
@@ -452,9 +548,14 @@
                             <h5 class="card-title text-center">Bootstrap</h5>
                           </div>
                         </div>
-                        <h6 class="table_heading">CSS Framework</h6>
+                        <h6 class="skill_card_heading">CSS Framework</h6>
                       </div>
-                      <div class="col-lg-4">
+                      <div
+                        class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
+                        data-aos="zoom-out-up"
+                        data-aos-delay="1800"
+                        data-aos-duration="1000"
+                      >
                         <div class="card skill_card card_tailwind rounded-0">
                           <img
                             src="./images/tailwind.png"
@@ -465,20 +566,30 @@
                             <h5 class="card-title text-center">Tailwind</h5>
                           </div>
                         </div>
-                        <h6 class="table_heading">CSS Framework</h6>
+                        <h6 class="skill_card_heading">CSS Framework</h6>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-12 col-sm-12">
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-6"
+                data-aos="zoom-out-left"
+                data-aos-delay="800"
+                data-aos-duration="1000"
+              >
                 <div class="card main_card rounded-4">
                   <h3 class="card-title text-center">For Development</h3>
                   <div class="card-body">
                     <div class="row skill_table">
                       <!--  skill backend
                         ================================================== -->
-                      <div class="col-lg-4">
+                      <div
+                        class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
+                        data-aos="zoom-out-up"
+                        data-aos-delay="1000"
+                        data-aos-duration="1000"
+                      >
                         <div class="card skill_card card_php rounded-0">
                           <img
                             src="./images/php.png"
@@ -489,11 +600,16 @@
                             <h5 class="card-title text-center">PHP</h5>
                           </div>
                         </div>
-                        <h6 class="table_heading">For Backend</h6>
+                        <h6 class="skill_card_heading">Development</h6>
                       </div>
                       <!--  skill full stak frame work
                           ================================================== -->
-                      <div class="col-lg-4">
+                      <div
+                        class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
+                        data-aos="zoom-out-up"
+                        data-aos-delay="1200"
+                        data-aos-duration="1000"
+                      >
                         <div class="card skill_card card_laravel rounded-0">
                           <img
                             src="./images/laravel.png"
@@ -504,11 +620,18 @@
                             <h5 class="card-title text-center">Laravel</h5>
                           </div>
                         </div>
-                        <h6 class="table_heading">For Fullstack Development</h6>
+                        <h6 class="skill_card_heading">
+                          Fullstack Development
+                        </h6>
                       </div>
                       <!--  skill frontend framework
                             ================================================== -->
-                      <div class="col-lg-4">
+                      <div
+                        class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
+                        data-aos="zoom-out-up"
+                        data-aos-delay="1400"
+                        data-aos-duration="1000"
+                      >
                         <div class="card skill_card card_react rounded-0">
                           <img
                             src="./images/react.png"
@@ -519,7 +642,7 @@
                             <h5 class="card-title text-center">React</h5>
                           </div>
                         </div>
-                        <h6 class="table_heading">For Frontend Development</h6>
+                        <h6 class="skill_card_heading">Frontend Development</h6>
                       </div>
                     </div>
                   </div>
@@ -539,7 +662,9 @@
         <section id="service" class="service_sec">
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 col-12 col-lg-12 service_heading">
+              <div
+                class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 service_heading"
+              >
                 <h6>What do I provide?</h6>
                 <h3>My services</h3>
                 <p>
@@ -552,7 +677,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-xxl-6 col-lg-6 col-12 col-sm-12">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                 <div class="card service_card rounded-4">
                   <div class="card-body text-center">
                     <i class="fa-solid fa-code"></i>
@@ -566,7 +691,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-xxl-6 col-12 col-sm-12">
+              <div
+                class="col-12 col-sm-6 col-md-6 col-lg-6 col-lg-6 col-xl-6 col-xxl-6"
+              >
                 <div class="card service_card rounded-4">
                   <div class="card-body text-center">
                     <i class="fa-solid fa-gears"></i>
@@ -591,13 +718,13 @@
           <div class="container">
             <div class="row text-center">
               <div
-                class="col-lg-6 col-12 col-sm-12 offset-lg-3 showcase_heading"
+                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 offset-lg-3 offset-xl-3 offset-xxl-3 showcase_heading"
               >
                 <h3>My Projects</h3>
               </div>
             </div>
             <div class="row showcase">
-              <div class="col-lg-4 col-12 col-sm-12">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                 <div class="card showcase_card rounded-4">
                   <div class="image-wrap rounded-top-4">
                     <img
@@ -627,7 +754,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-12 col-sm-12">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                 <div class="card showcase_card rounded-3">
                   <div class="image-wrap rounded-top-4">
                     <img
@@ -657,7 +784,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-12 col-sm-12">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                 <div class="card showcase_card rounded-3">
                   <div class="image-wrap rounded-top-4">
                     <img
@@ -697,13 +824,13 @@
         <section id="contacts" class="contact_us">
           <div class="container">
             <div class="row contact_heading">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-12 col-sm-12">
                 <h6>How can I reach you?</h6>
                 <h3>Contact Me</h3>
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-12">
+              <div class="col-12 col-sm-12 col-lg-12">
                 <div class="wrapper">
                   <div class="row no-gutters">
                     <div
